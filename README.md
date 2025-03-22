@@ -1,4 +1,4 @@
-# smart-store-benp
+# smart-store-albert
 
 Starter files to initialize the smart sales project.
 
