@@ -1,0 +1,15 @@
+2025-03-14 00:50:53.839 | INFO     | utils_logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-14 00:50:53.839 | INFO     | __main__:<module>:72 - STATS - Ready for work.
+2025-03-14 00:50:53.839 | INFO     | __main__:main:55 - Starting MAIN function.
+2025-03-14 00:50:53.839 | INFO     | __main__:main:58 - Scores: [3.5, 4.0, 4.8, 2.9, 3.7, 4.3, 3.8]
+2025-03-14 00:50:53.840 | INFO     | __main__:main:59 - Minimum: 2.90
+2025-03-14 00:50:53.840 | INFO     | __main__:main:60 - Maximum: 4.80
+2025-03-14 00:50:53.840 | INFO     | __main__:main:61 - Mean: 3.86
+2025-03-14 00:50:53.840 | INFO     | __main__:main:62 - Standard Deviation: 0.60
+2025-03-14 00:50:53.842 | INFO     | __main__:main:64 - Exiting MAIN function.
+2025-03-14 00:50:53.842 | INFO     | __main__:<module>:80 - STATS - Execution complete.
+2025-03-20 22:04:30.379 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-20 22:04:30.380 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-benp\smart-store-benp\data\raw\customers_data.csv.
+2025-03-20 22:04:30.392 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-benp\smart-store-benp\data\raw\products_data.csv.
+2025-03-20 22:04:30.402 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-benp\smart-store-benp\data\raw\sales_data.csv.
+2025-03-20 22:04:30.420 | INFO     | __main__:main:45 - Data preparation complete.
