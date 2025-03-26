@@ -1,3 +1,4 @@
+cddata py scripts\data_prep.py
 """
 Module 2: Initial Script to Verify Project Setup
 File: scripts/data_prep.py
