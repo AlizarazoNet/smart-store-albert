@@ -13,3 +13,107 @@
 2025-03-20 22:04:30.392 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-albert\smart-store-albert\data\raw\products_data.csv.
 2025-03-20 22:04:30.402 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-albert\smart-store-albert\data\raw\sales_data.csv.
 2025-03-20 22:04:30.420 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-26 22:13:08.099 | INFO     | __main__:main:162 - ==================================
+2025-03-26 22:13:08.112 | INFO     | __main__:main:163 - STARTING prepare_customers_data.py
+2025-03-26 22:13:08.113 | INFO     | __main__:main:164 - ==================================
+2025-03-26 22:13:08.114 | INFO     | __main__:main:166 - Root project folder: C:\Projects\smart-store-albert
+2025-03-26 22:13:08.115 | INFO     | __main__:main:167 - data / raw folder: C:\Projects\smart-store-albert\data\raw
+2025-03-26 22:13:08.116 | INFO     | __main__:main:168 - data / prepared folder: C:\Projects\smart-store-albert\data\prepared
+2025-03-26 22:13:08.118 | INFO     | __main__:main:169 - scripts folder: C:\Projects\smart-store-albert\scripts
+2025-03-26 22:13:08.119 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=customers_data.csv
+2025-03-26 22:13:08.120 | INFO     | __main__:read_raw_data:68 - Reading data from C:\Projects\smart-store-albert\data\raw\customers_data.csv
+2025-03-26 22:13:08.280 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 11 rows and 6 columns
+2025-03-26 22:13:08.281 | INFO     | __main__:main:178 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoinst , CustomerSegments 
+2025-03-26 22:13:08.282 | INFO     | __main__:main:179 - Initial dataframe shape: (11, 6)
+2025-03-26 22:13:08.296 | INFO     | __main__:main:188 - Cleaned column names: LoyaltyPoinst  -> LoyaltyPoinst, CustomerSegments  -> CustomerSegments
+2025-03-26 22:13:08.297 | INFO     | __main__:remove_duplicates:98 - FUNCTION START: remove_duplicates with dataframe shape=(11, 6)
+2025-03-26 22:13:08.343 | INFO     | __main__:remove_duplicates:102 - Removed 0 duplicate rows
+2025-03-26 22:13:08.344 | INFO     | __main__:remove_duplicates:103 - 11 records remaining after removing duplicates.
+2025-03-26 22:13:08.345 | INFO     | __main__:handle_missing_values:117 - FUNCTION START: handle_missing_values with dataframe shape=(11, 6)
+2025-03-26 22:13:08.347 | INFO     | __main__:handle_missing_values:121 - Total missing values before handling: 1
+2025-03-26 22:13:08.349 | INFO     | __main__:handle_missing_values:130 - Total missing values after handling: 1
+2025-03-26 22:13:08.350 | INFO     | __main__:handle_missing_values:131 - 11 records remaining after handling missing values.
+2025-03-26 22:13:08.351 | INFO     | __main__:remove_outliers:145 - FUNCTION START: remove_outliers with dataframe shape=(11, 6)
+2025-03-26 22:13:08.352 | INFO     | __main__:remove_outliers:153 - Removed 0 outlier rows
+2025-03-26 22:13:08.353 | INFO     | __main__:remove_outliers:154 - 11 records remaining after removing outliers.
+2025-03-26 22:13:08.355 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=customers_data_prepared.csv, dataframe shape=(11, 6)
+2025-03-26 22:44:20.089 | INFO     | __main__:main:162 - ==================================
+2025-03-26 22:44:20.100 | INFO     | __main__:main:163 - STARTING prepare_customers_data.py
+2025-03-26 22:44:20.101 | INFO     | __main__:main:164 - ==================================
+2025-03-26 22:44:20.102 | INFO     | __main__:main:166 - Root project folder: C:\Projects\smart-store-albert
+2025-03-26 22:44:20.103 | INFO     | __main__:main:167 - data / raw folder: C:\Projects\smart-store-albert\data\raw
+2025-03-26 22:44:20.109 | INFO     | __main__:main:168 - data / prepared folder: C:\Projects\smart-store-albert\data\prepared
+2025-03-26 22:44:20.112 | INFO     | __main__:main:169 - scripts folder: C:\Projects\smart-store-albert\scripts
+2025-03-26 22:44:20.113 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=customers_data.csv
+2025-03-26 22:44:20.114 | INFO     | __main__:read_raw_data:68 - Reading data from C:\Projects\smart-store-albert\data\raw\customers_data.csv
+2025-03-26 22:44:20.124 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 11 rows and 6 columns
+2025-03-26 22:44:20.127 | INFO     | __main__:main:178 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoinst , CustomerSegments 
+2025-03-26 22:44:20.128 | INFO     | __main__:main:179 - Initial dataframe shape: (11, 6)
+2025-03-26 22:44:20.131 | INFO     | __main__:main:188 - Cleaned column names: LoyaltyPoinst  -> LoyaltyPoinst, CustomerSegments  -> CustomerSegments
+2025-03-26 22:44:20.132 | INFO     | __main__:remove_duplicates:98 - FUNCTION START: remove_duplicates with dataframe shape=(11, 6)
+2025-03-26 22:44:20.143 | INFO     | __main__:remove_duplicates:102 - Removed 0 duplicate rows
+2025-03-26 22:44:20.145 | INFO     | __main__:remove_duplicates:103 - 11 records remaining after removing duplicates.
+2025-03-26 22:44:20.147 | INFO     | __main__:handle_missing_values:117 - FUNCTION START: handle_missing_values with dataframe shape=(11, 6)
+2025-03-26 22:44:20.150 | INFO     | __main__:handle_missing_values:121 - Total missing values before handling: 1
+2025-03-26 22:44:20.159 | INFO     | __main__:handle_missing_values:130 - Total missing values after handling: 1
+2025-03-26 22:44:20.161 | INFO     | __main__:handle_missing_values:131 - 11 records remaining after handling missing values.
+2025-03-26 22:44:20.169 | INFO     | __main__:remove_outliers:145 - FUNCTION START: remove_outliers with dataframe shape=(11, 6)
+2025-03-26 22:44:20.170 | INFO     | __main__:remove_outliers:153 - Removed 0 outlier rows
+2025-03-26 22:44:20.173 | INFO     | __main__:remove_outliers:154 - 11 records remaining after removing outliers.
+2025-03-26 22:44:20.175 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=customers_data_prepared.csv, dataframe shape=(11, 6)
+2025-03-26 22:44:20.227 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\smart-store-albert\data\prepared\customers_data_prepared.csv
+2025-03-26 22:44:20.228 | INFO     | __main__:main:202 - ==================================
+2025-03-26 22:44:20.230 | INFO     | __main__:main:203 - FINISHED prepare_customers_data.py
+2025-03-26 22:44:20.230 | INFO     | __main__:main:204 - ==================================
+2025-03-26 23:04:03.028 | INFO     | __main__:main:227 - ==================================
+2025-03-26 23:04:03.029 | INFO     | __main__:main:228 - STARTING prepare_products_data.py
+2025-03-26 23:04:03.030 | INFO     | __main__:main:229 - ==================================
+2025-03-26 23:04:03.031 | INFO     | __main__:main:231 - Root project folder: C:\Projects\smart-store-albert
+2025-03-26 23:04:03.032 | INFO     | __main__:main:232 - data / raw folder: C:\Projects\smart-store-albert\data\raw
+2025-03-26 23:04:03.034 | INFO     | __main__:main:233 - data / prepared folder: C:\Projects\smart-store-albert\data\prepared
+2025-03-26 23:04:03.035 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-03-26 23:04:03.038 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-albert\data\raw\products_data.csv
+2025-03-26 23:04:03.059 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 8 rows and 6 columns
+2025-03-26 23:04:03.060 | INFO     | __main__:main:242 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, StockQuantity, Supplier
+2025-03-26 23:04:03.061 | INFO     | __main__:main:243 - Initial dataframe shape: (8, 6)
+2025-03-26 23:04:03.066 | INFO     | __main__:main:252 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, StockQuantity -> stockquantity, Supplier -> supplier
+2025-03-26 23:04:03.068 | INFO     | __main__:remove_duplicates:96 - FUNCTION START: remove_duplicates with dataframe shape=(8, 6)
+2025-03-26 23:04:03.071 | INFO     | __main__:remove_duplicates:106 - Removed 0 duplicate rows
+2025-03-26 23:04:03.104 | INFO     | __main__:remove_duplicates:107 - 8 records remaining after removing duplicates.
+2025-03-26 23:04:03.105 | INFO     | __main__:handle_missing_values:121 - FUNCTION START: handle_missing_values with dataframe shape=(8, 6)
+2025-03-26 23:04:03.111 | INFO     | __main__:handle_missing_values:126 - Missing values by column before handling:
+productid        0
+productname      0
+category         0
+unitprice        0
+stockquantity    0
+supplier         0
+dtype: int64
+2025-03-26 23:04:03.119 | INFO     | __main__:handle_missing_values:140 - Missing values by column after handling:
+productid        0
+productname      0
+category         0
+unitprice        0
+stockquantity    0
+supplier         0
+dtype: int64
+2025-03-26 23:04:03.122 | INFO     | __main__:handle_missing_values:141 - 8 records remaining after handling missing values.
+2025-03-26 23:04:03.125 | INFO     | __main__:standardize_formats:188 - FUNCTION START: standardize_formats with dataframe shape=(8, 6)
+2025-03-26 23:04:03.126 | INFO     | __main__:standardize_formats:198 - Completed standardizing formats
+2025-03-26 23:04:03.128 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(8, 6)
+2025-03-26 23:04:03.133 | INFO     | __main__:remove_outliers:174 - Removed 0 outlier rows
+2025-03-26 23:04:03.134 | INFO     | __main__:remove_outliers:175 - 8 records remaining after removing outliers.
+2025-03-26 23:04:03.136 | INFO     | __main__:validate_data:211 - FUNCTION START: validate_data with dataframe shape=(8, 6)
+2025-03-26 23:04:03.138 | INFO     | __main__:validate_data:220 - Data validation complete
+2025-03-26 23:04:03.140 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=products_data_prepared.csv, dataframe shape=(8, 6)
+2025-03-26 23:04:03.154 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\smart-store-albert\data\prepared\products_data_prepared.csv
+2025-03-26 23:04:03.156 | INFO     | __main__:main:264 - ==================================
+2025-03-26 23:04:03.158 | INFO     | __main__:main:265 - FINISHED prepare_products_data.py
+2025-03-26 23:04:03.160 | INFO     | __main__:main:266 - ==================================
+2025-03-26 23:42:35.609 | INFO     | __main__:main:56 - ========================
+2025-03-26 23:42:35.620 | INFO     | __main__:main:57 - Starting SALES prep
+2025-03-26 23:42:35.621 | INFO     | __main__:main:58 - ========================
+2025-03-26 23:42:36.178 | INFO     | __main__:save_prepared_data:51 - Data saved to C:\Projects\smart-store-albert\data\prepared\sales_data_prepared.csv
+2025-03-26 23:42:36.180 | INFO     | __main__:main:77 - ======================
+2025-03-26 23:42:36.181 | INFO     | __main__:main:78 - FINISHED Sales Prep
+2025-03-26 23:42:36.182 | INFO     | __main__:main:79 - ======================
