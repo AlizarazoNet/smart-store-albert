@@ -122,3 +122,6 @@ dtype: int64
 2025-03-27 00:23:23.653 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-albert\data\raw\products_data.csv.
 2025-03-27 00:23:23.663 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-albert\data\raw\sales_data.csv.
 2025-03-27 00:23:23.687 | INFO     | __main__:main:47 - Data preparation complete.
+2025-03-28 20:59:53.720 | INFO     | __main__:main:43 - Starting data warehouse creation...
+2025-03-28 20:59:53.738 | INFO     | __main__:create_dw:31 - Data warehouse created successfully.
+2025-03-28 20:59:53.739 | INFO     | __main__:main:45 - Data warehouse creation complete.
