@@ -104,3 +104,16 @@ git push
 - pyspark==4.0.0.dev1
 - pyspark[sql]
 - git+https://github.com/denisecase/datafun-venv-checker.git#egg=datafun_venv_checker
+
+## 📊 Data Warehouse Setup
+
+This project includes a data warehouse created using SQLite. The schema includes the following tables:
+
+- `customer`: Stores customer details such as name, region, join date, loyalty points, and segments.
+- `product`: Contains product information including category, supplier, and pricing.
+- `sale`: Records each sale transaction with details on store, campaign, discounts, and payment.
+
+### ✅ Schema Verification
+
+The schema was verified using the SQLite Viewer in VS Code.
+
