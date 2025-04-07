@@ -116,4 +116,38 @@ This project includes a data warehouse created using SQLite. The schema includes
 ### ✅ Schema Verification
 
 The schema was verified using the SQLite Viewer in VS Code.
+Star Schema Design
+
+This project uses a star schema for the data warehouse, which is a common dimensional modeling technique optimized for querying and reporting.
+🔷 Fact Table
+
+    sale: The central table that contains measurable, quantitative data (e.g., sale amount, discount, payment type).
+
+        Each row represents a single transaction.
+
+        It includes foreign keys to related dimension tables.
+
+🔷 Dimension Tables
+
+    customer: Contains descriptive information about customers (name, region, join date, loyalty points, etc.).
+
+    product: Stores product-related attributes (category, unit price, supplier, etc.).
+
+🔗 Schema Structure
+
+In a star schema:
+
+    The fact table sits in the center.
+
+    The dimension tables surround it like points of a star.
+
+    Relationships are maintained through foreign keys from the fact table to the dimension tables.
+
+🧠 Why Use a Star Schema?
+
+    Simple and intuitive design for analysts and business users.
+
+    Optimized for OLAP (Online Analytical Processing) and data aggregation.
+
+    Reduces the complexity of joins for queries.
 
