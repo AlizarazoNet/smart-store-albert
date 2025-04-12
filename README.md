@@ -151,3 +151,45 @@ In a star schema:
 
     Reduces the complexity of joins for queries.
 
+### SQL Queries & Data Model
+
+- Connected to SQLite database using ODBC in Power BI.
+- Wrote SQL to summarize total sales by customer:
+  ```sql
+  Odbc.Query  ("dsn=SmartSalesDSN", 
+    "SELECT c.Name, SUM(s.SaleAmount) AS total_spent
+     FROM sale s
+     JOIN Customer c ON s.CustomerID = c.CustomerID
+     GROUP BY c.Name
+     ORDER BY total_spent DESC"
+)
+Transformed order_date into year, quarter, and month for drilldowns.
+
+Created relationships between Customer, Sale, and Product tables.
+  
+---
+
+### 🔹 STEP 3: Explain Dashboard Design Choices
+
+Copy & paste this too:
+
+```markdown
+### Dashboard Design Choices
+
+- Bar chart to show top customers by total spent.
+- Line chart to track sales trends by year → quarter → month.
+- Slicer for product category to filter across visuals.
+- Drilldown enabled on time axis for multi-level analysis.
+### Power BI Data Model View
+
+![Model View](model_view.png)
+
+### SQL Query Results
+
+![Query Results](query_results.png)
+
+### Final Dashboard
+
+![Dashboard](dashboard.png)
+
+
