@@ -180,7 +180,7 @@ Copy & paste this too:
 - Line chart to track sales trends by year → quarter → month.
 - Slicer for product category to filter across visuals.
 - Drilldown enabled on time axis for multi-level analysis.
-[Model View](model_view.png)
-![Query Results](query-results.png)
+![Model View](model_view.png)
+![Query Results](query_results.png)
 ![Dashboard](dashboard.png)
 
