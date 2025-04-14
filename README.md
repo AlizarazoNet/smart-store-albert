@@ -182,7 +182,7 @@ Created relationships between Customer, Sale, and Product tables.
 - Drilldown enabled on time axis for multi-level analysis.
 
 ![Model View](model_view.png)
-![Query Results](query_results.png)
+![Query Results](query-results.png)
 ![Dashboard](dashboard.png)
 
 
