@@ -180,20 +180,7 @@ Copy & paste this too:
 - Line chart to track sales trends by year → quarter → month.
 - Slicer for product category to filter across visuals.
 - Drilldown enabled on time axis for multi-level analysis.
-### Power BI Data Model View
-
-![Model View](model_view.png)
-
-### SQL Query Results
-
-![Query Results](query_results.png)
-### Final Dashboard
-
+[Model View](model_view.png)
+![Query Results](query-results.png)
 ![Dashboard](dashboard.png)
-
-/Projects\smart-store-albert
-  ├── README.md
-  ├── model_view.png
-  ├── query_results.png
-  ├── dashboard.png
 
