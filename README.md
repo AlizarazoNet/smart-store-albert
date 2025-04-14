@@ -182,13 +182,18 @@ Copy & paste this too:
 - Drilldown enabled on time axis for multi-level analysis.
 ### Power BI Data Model View
 
-![Model View](C:\Projects\smart-store-albert\model_view.png)
+![Model View](model_view.png)
 
 ### SQL Query Results
 
-![Query Results]C:\Projects\smart-store-albert\query-results.png
+![Query Results](query-results.png)
 ### Final Dashboard
 
-![Dashboard](C:\Projects\smart-store-albert\dashboard.png)
+![Dashboard](dashboard.png)
 
+/C:\Projects\smart-store-albert
+  ├── README.md
+  ├── model_view.png
+  ├── query_results.png
+  ├── dashboard.png
 
