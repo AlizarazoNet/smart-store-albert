@@ -186,12 +186,12 @@ Copy & paste this too:
 
 ### SQL Query Results
 
-![Query Results](query-results.png)
+![Query Results](query_results.png)
 ### Final Dashboard
 
 ![Dashboard](dashboard.png)
 
-/C:\Projects\smart-store-albert
+/Projects\smart-store-albert
   ├── README.md
   ├── model_view.png
   ├── query_results.png
