@@ -181,10 +181,10 @@ Created relationships between Customer, Sale, and Product tables.
 - Slicer for product category to filter across visuals.
 - Drilldown enabled on time axis for multi-level analysis.
 
-![Model View](model_view.png)
-![Query Results](query-results.png)
-![Dashboard](dashboard.png)
-![Alt text](/dashboard.png)
+![Model View](/model_view.png)
+![Query Results](/query_results.png)
+![Dashboard](/dashboard.png)
+
 
 
 
