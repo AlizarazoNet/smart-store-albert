@@ -184,7 +184,7 @@ Created relationships between Customer, Sale, and Product tables.
 ![Model View](model_view.png)
 ![Query Results](query-results.png)
 ![Dashboard](dashboard.png)
-
+![Alt text](/dashboard.png)
 
 
 
